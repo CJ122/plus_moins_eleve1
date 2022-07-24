@@ -20,17 +20,19 @@ void plus_moins(int r)
     //Quand l'utilisateur choisi une valeur moins que la bonne valeur
     if (choix_joueur < valeur_a_trouver)
     {
-      printf("La bonne valeur est plus!");
+      printf("La bonne valeur est plus!\n");
+      printf("Veuillez choisir de nouveau une valeur: ");
     }
   
     //Quand l'utilisateur choisi une valeur plus grande que la bonne valeur  
     else if (choix_joueur > valeur_a_trouver)
     {
-      printf("La bonne valeur est moins!");
+      printf("La bonne valeur est moins!\n");
+      printf("Veuillez choisir de nouveau une valeur: ");
     }
     //Quand l'utilisateur a choisi la bonne valeur
     else 
-      printf ("Bingo!");
+      printf ("Bingo!\nVous avez eu la bonne valeur!");
   } while (choix_joueur != valeur_a_trouver);
 }
 
