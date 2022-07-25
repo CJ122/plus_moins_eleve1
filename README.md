@@ -1,4 +1,4 @@
-#Jeu plus_moins
+Jeu plus_moins
 v1.0
 Ce programme représente le jeu plus_moins. La version finale est une mode de deux joueurs et celui qui devine le nombre correcte aléatoire, choisi par le programme, gagne.
 
